@@ -1,0 +1,15 @@
+#
+######Bootsrap commmand#########
+# ml {env} bootstrap
+
+ml local bootstrap
+
+######Info command######
+# ml {env} info
+
+ml local info | grep ***
+
+######add file to module database######
+# ml {env} info | grep xquery.dir
+# add that file to this location then run
+# ml {env} deploy module
